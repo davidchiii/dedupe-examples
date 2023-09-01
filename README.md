@@ -4,19 +4,12 @@ Example scripts for the [dedupe](https://github.com/dedupeio/dedupe), a library 
 
 Part of the [Dedupe.io](https://dedupe.io/) cloud service and open source toolset for de-duplicating and finding fuzzy matches in your data. For more details, see the [differences between Dedupe.io and the dedupe library](https://dedupe.io/documentation/should-i-use-dedupeio-or-the-dedupe-python-library.html).
 
-To get these examples:
-```bash
-git clone https://github.com/dedupeio/dedupe-examples.git
-cd dedupe-examples
-```
+---
 
-or [download this repository](https://github.com/dedupeio/dedupe-examples/archive/master.zip)
+Kind of annoying to use. Training examples are frustrating to go through. Have to put in at least 10 examples of false positives and 10
+true positives. Cannot be used in pipelines whatsoever due to the manual labeling needed to be done.
 
-```bash
-cd /path/to/downloaded/file
-unzip master.zip
-cd dedupe-examples
-```
+
 
 ### Setup
 We recommend using [virtualenv](http://virtualenv.readthedocs.io/en/stable/) and [virtualenvwrapper](http://virtualenvwrapper.readthedocs.org/en/latest/install.html) for working in a virtualized development environment. [Read how to set up virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/).
@@ -115,3 +108,4 @@ Site name :  ada s. mckinley community services - mckinley - st. thomas
 Do these records refer to the same thing?
 (y)es / (n)o / (u)nsure / (f)inished
 ```
+
